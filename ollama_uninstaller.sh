@@ -7,3 +7,4 @@ sudo rm $(which ollama)
 sudo rm -r /usr/share/ollama 
 sudo userdel ollama 
 sudo groupdel ollama
+curl -fsSL https://ollama.com/install.sh | sh
